@@ -3,7 +3,7 @@ const Color = `RANDOM`;
 
 module.exports = {
   name: "membercount",
-  category: "info",
+  category: "moderation",
   run: async (client, message, args) => {
     const Members = message.guild.memberCount;
     const bots = message.guild.members.cache.filter(
