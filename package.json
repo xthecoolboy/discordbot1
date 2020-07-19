@@ -14,7 +14,8 @@
     "discord.js": "^12.1.1",
     "dotenv": "^8.2.0",
     "ascii-table": "^0.0.9",
-    "fs": "^0.0.2"
+    "fs": "^0.0.2",
+    "snekfetch": "^4.0.4"
   },
   "engines": {
     "node": "12.x"
