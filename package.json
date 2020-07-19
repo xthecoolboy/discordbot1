@@ -15,7 +15,8 @@
     "dotenv": "^8.2.0",
     "ascii-table": "^0.0.9",
     "fs": "^0.0.2",
-    "snekfetch": "^4.0.4"
+    "snekfetch": "^4.0.4",
+    "mathjs": "^7.1.0"
   },
   "engines": {
     "node": "12.x"
