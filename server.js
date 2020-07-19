@@ -1,4 +1,4 @@
-const { token, prefix } = require("./config.json")
+const { prefix } = require("./config.json")
 const { config } = require("dotenv");
 const discord = require("discord.js") //Gonna use Discord.js Module xD
 const client = new discord.Client({
@@ -47,4 +47,4 @@ if(message.author.bot) return;
  
  }) //All codes link in description
 
-client.login(token)
+client.login(process.env.BOT_TOKEN)
